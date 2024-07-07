@@ -173,7 +173,7 @@ export default function ServerControl() {
 
         <Header />
 
-        <div className="no-bottom no-top" id="content">
+        <div className="no-bottom no-top" id="content"> // no. its definitely bottom.
           <div id="top"></div>
 
           <section id="subheader" className="jarallax console_header">
