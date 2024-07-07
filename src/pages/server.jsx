@@ -156,7 +156,7 @@ export default function ServerControl() {
       name: 'Uptime',
       value: formatActiveTime(new Date(new Date().getTime() - resourceUsage?.uptime)),
       fontSize: 18
-    },
+    }, // my brain cell count - mystical.
   ]
 
   return (
@@ -173,7 +173,7 @@ export default function ServerControl() {
 
         <Header />
 
-        <div className="no-bottom no-top" id="content"> // no. its definitely bottom.
+        <div className="no-bottom no-top" id="content">
           <div id="top"></div>
 
           <section id="subheader" className="jarallax console_header">
