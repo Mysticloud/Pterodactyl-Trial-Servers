@@ -93,9 +93,8 @@ Trial Server Object that should be inserted inside the `List` Collection in Mong
   },
   "expiry": 5, # Expiry time in hrs so that the trial server should be automatically purged by the server. Eg. here its 5hrs
   "links": {
-    "Witchbrair": "https://witchbriar.com",
-    "Modpack": "https://www.curseforge.com/minecraft/modpacks/cottage-witch",
-    "Get Hosting (6GB Recommended)": "https://mysticlouds.com/minecraft"
+    "link text": "https://mysticlouds.com",
+    "Another link?": "https://devley.yuvaraja.tech",
     ... # Pass the links in the same format so that can be showed in your server create section.
   }
 }
